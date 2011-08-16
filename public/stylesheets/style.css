@@ -1,0 +1,40 @@
+/*
+# ITESM CEM, May 11, 2011.
+# Ruby Source File
+# Activity::  Final Project: Design Patterns Quiz App
+# Author::    1165536 Juliana Pena
+*/
+
+body {background: #EDEDED;}
+* {font-family: sans-serif;}
+.center {text-align: center;}
+
+#main { width: 500px; border: #135CBE solid 10px; border-radius: 10px; background: white; margin-left:auto; margin-right:auto; padding: 10px;}
+#main h1 {font-size:1.5em;}
+#footer > p {font-size: 0.8em; text-align: center;}
+
+.submit {font-size:1.2em; padding:5px 10px; width:150px; margin-top:10px;}
+#question {font-size:1.2em;}
+
+#count {font-size: 1.2em;}
+
+#score {font-size: 2em; text-align: center; font-weight: bold;}
+
+/* question (/quiz/question) page */
+.choice {font-size: 1.2em; margin: 0; border-radius: 4px;}
+.choice:hover {background-color: #ffdb73;}
+.choice label {width: 400px; display: inline-block; padding: 10px 0 10px 0; margin: 0;}
+
+/* feedback (/quiz/answer) page */
+.correct {background-color: #64de89;}
+.incorrect {background-color: #ff8373;}
+.feedback {font-weight: bold; font-size: 1.2em; }
+.feedback-choice {margin: 0 0 5px 0; font-size: 1.2em; padding: 10px 5px 10px 25px; border-radius: 4px;}
+
+
+
+
+
+table {border-collapse: collapse;}
+
+

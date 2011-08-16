@@ -1,0 +1,16 @@
+<!--
+# ITESM CEM, May 11, 2011.
+# Ruby Source File
+# Activity::  Final Project: Design Patterns Quiz App
+# Authors::   1165536 Juliana Pena
+-->
+
+<h1>New question</h1>
+
+<%= render 'form' %>
+
+<%= link_to 'Back', questions_path %>
+
+<% content_for(:title) do %>
+  New Question
+<% end %>
